@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Judoka Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Karantina' rel='stylesheet'>
+
+    
+</head>
+<body class="gallery-body">
+    <div class="container">
+        <div class="header">
+            <nav class="navbar">
+                <div class="hamburger-menu" onclick="toggleHamburgerMenu()">
+                    &#9776;
+                </div>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Events.html">EVENTS</a></li>
+                        <li><a href="Judokas.html">JUDOKAS</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Gallery.html">GALLERY</a></li>
+                        <li><a href="Login.html">ACCOUNT</a></li>
+                    </ul>
+                </div>
+                    <div class="nav_left">
+                        <ul>
+                            <li><a href="Events.html">EVENTS</a></li>
+                            <li><a href="Judokas.html">JUDOKAS</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="nav_center">
+                        
+                        <a href="index.html"><img src="./images/logo.png"></a>
+                        
+                    </div>
+                    <div class="nav_right">
+                        <ul>
+                            <li><a href="About.html">ABOUT</a></li>
+                            <li><a href="Gallery.html" class="active">GALLERY</a></li>
+                            <li><img src="./images/Login.svg" class="menu-icon" id="loginImage" onclick="toggleMenu()"></li>
+                        </ul>
+                        
+                        <!-- <img src="./images/Login.png" class="menu-icon" onclick="toggleMenu()"> -->
+                    </div>
+                    
+            </nav>
+        
+        </div>
+        <div class="gallery-page">
+           <!-- JavaScript -->
+        </div>
+                    
+        
+    
+    <script src="./js/gallery.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/hamburgerMenu.js"></script>
+
+</body>
+</html>

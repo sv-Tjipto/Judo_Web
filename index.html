@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The MAT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Karantina' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Jacques Francois' rel='stylesheet'>
+</head>
+<body class="homepage-body">
+    <div class="container">
+        <div class="header">
+            <nav class="navbar">
+                <div class="hamburger-menu" onclick="toggleHamburgerMenu()">
+                    &#9776;
+                </div>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Events.html">EVENTS</a></li>
+                        <li><a href="Judokas.html">JUDOKAS</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Gallery.html">GALLERY</a></li>
+                        <li><a href="Login.html">ACCOUNT</a></li>
+                    </ul>
+                </div>
+                    <div class="nav_left">
+                        <ul>
+                            <li><a href="Events.html">EVENTS</a></li>
+                            <li><a href="Judokas.html">JUDOKAS</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="nav_center">
+                        
+                        <a href="index.html"><img src="./images/logo.png"></a>
+                        
+                    </div>
+                    <div class="nav_right">
+                        <ul>
+                            <li><a href="About.html">ABOUT</a></li>
+                            <li><a href="Gallery.html">GALLERY</a></li>
+                            <li><img src="./images/Login.svg" class="menu-icon" id="loginImage" onclick="toggleMenu()"></li>
+                        </ul>
+                        
+                        <!-- <img src="./images/Login.png" class="menu-icon" onclick="toggleMenu()"> -->
+                    </div>
+                    
+            </nav>
+        
+        </div>
+        <div class="Live-Stream">
+            <div class="player">
+                <div class="player-profile">
+                    <img src="./images/Le_Marco.jpg">
+                </div>
+                <div class = "player-name">
+                    <h1>Le Marco</h1>
+                </div>
+                <div class="player-info">
+                    <div class="player-info-box">
+                        <div class="country-pic">
+                            <img src="./images/countries/mx.svg" class="logo-country" alt="country">
+                        </div>
+                        <div class="country-name">
+                            <p>France</p>
+                        </div>
+                        <div class="player-age">
+                            <p>Age: </p>
+                            <p>25</p>
+                        </div>
+                    </div>
+                    <div class="player-throw">
+                        <p>Favourite Throw: </p>
+                        <p>Ippon Seoi Nage</p>
+                    </div>
+                    <div class="player-points">
+                        <div class="player-streak">
+                            <p>Win/Lose</p>
+                            <p>0/20</p>
+                        </div>
+                        <div class="player-streak-score">
+                            <div class="player-streak-score-points">
+                                <div class="ippon">
+                                    <p>I</p>
+                                    <p>0</p>
+                                </div>
+                                <div class="wazari">
+                                    <p>W</p>
+                                    <p>3</p>
+                                </div>
+                                <div class="penalty">
+                                    <p>P</p>
+                                    <p>10</p>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div> 
+            </div>
+
+            <div class="info">
+                <div class="info-button">
+                    <button onclick="showLive()">
+                        <img src="./images/LIVE icon.png" alt="Live Button">
+                    </button>
+                </div>
+        
+                <div class="score-board">
+                    <div class="total-score">
+                        <div class="player-score">
+                            <div class="ippon">
+                                <p>I</p>
+                                <p>0</p>
+                            </div>
+                            <div class="wazari">
+                                <p>W</p>
+                                <p>0</p>
+                            </div>
+                            <div class="penalty">
+                                <p>P</p>
+                                <p>1</p>
+                            </div>
+                        </div>
+                        <div class="player-score">
+                            <div class="ippon">
+                                <p>I</p>
+                                <p>0</p>
+                            </div>
+                            <div class="wazari">
+                                <p>W</p>
+                                <p>1</p>
+                            </div>
+                            <div class="penalty">
+                                <p>P</p>
+                                <p>1</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="match-time">
+                        <p>01:20</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-profile">
+                    <img src="./images/Wei_Wei.jpg">
+                </div>
+                <div class = "player-name">
+                    <h1>Wei Wei</h1>
+                </div>
+                <div class="player-info">
+                    <div class="player-info-box">
+                        <div class="country-pic">
+                            <img src="./images/countries/sg.svg" class="logo-country" alt="country">
+                        </div>
+                        <div class="country-name">
+                            <p>SGP</p>
+                        </div>
+                        <div class="player-age">
+                            <p>Age: </p>
+                            <p>56</p>
+                        </div>
+                    </div>
+                    <div class="player-throw">
+                        <p>Throws: </p>
+                        <p>Morote Seoi Nage</p>
+                    </div>
+                    <div class="player-points">
+                        <div class="player-streak">
+                            <p>Win/Lose</p>
+                            <p>4/54</p>
+                        </div>
+                        <div class="player-streak-score">
+                            <div class="player-streak-score-points">
+                                <div class="ippon">
+                                    <p>I</p>
+                                    <p>10</p>
+                                </div>
+                                <div class="wazari">
+                                    <p>W</p>
+                                    <p>2</p>
+                                </div>
+                                <div class="penalty">
+                                    <p>P</p>
+                                    <p>20</p>
+                                </div> 
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- <h2>Live Stream</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7J3Z1J1fj6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                </div> 
+            </div>
+            <!-- <h2>Live Stream</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7J3Z1J1fj6A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        </div>
+    
+    <script src="./js/script.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/hamburgerMenu.js"></script>
+
+
+</body>
+</html>

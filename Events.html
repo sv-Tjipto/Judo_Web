@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Judoka Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Karantina' rel='stylesheet'>
+
+    
+</head>
+<body class="event-body">
+    <div class="container">
+        <div class="header">
+            <nav class="navbar">
+                <div class="hamburger-menu" onclick="toggleHamburgerMenu()">
+                    &#9776;
+                </div>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Events.html">EVENTS</a></li>
+                        <li><a href="Judokas.html">JUDOKAS</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="Gallery.html">GALLERY</a></li>
+                        <li><a href="Login.html">ACCOUNT</a></li>
+                    </ul>
+                </div>
+                    <div class="nav_left">
+                        <ul>
+                            <li><a href="Events.html" class="active">EVENTS</a></li>
+                            <li><a href="Judokas.html">JUDOKAS</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="nav_center">
+                        
+                        <a href="index.html"><img src="./images/logo.png"></a>
+                        
+                    </div>
+                    <div class="nav_right">
+                        <ul>
+                            <li><a href="About.html">ABOUT</a></li>
+                            <li><a href="Gallery.html">GALLERY</a></li>
+                            <li><img src="./images/Login.svg" class="menu-icon" id="loginImage" onclick="toggleMenu()"></li>
+                        </ul>
+                        
+                        <!-- <img src="./images/Login.png" class="menu-icon" onclick="toggleMenu()"> -->
+                    </div>
+                    
+            </nav>
+        
+        </div>
+        <div class="event-page">
+            <div class="event-filter">
+                <label for="inputEventName">Name:</label>
+                <input type="text" id="inputEventName" onkeyup="EventName()" placeholder="Search for names..">
+                <label for="inputCountry">Country:</label>
+                <input type="text" id="inputCountry" onkeyup="EventCountry()" placeholder="Search for countries..">
+                
+                <label for="inputCategory">Category:</label>
+                <input type="text" id="inputCategory" onkeyup="EventCategory()" placeholder="Search for categories..">
+                
+            </div>
+            <div class="event-info-location">
+                <div class="logo-location">
+                </div>
+                <div class="name-location">
+                    <h3>Name</h3>
+                </div>
+                <div class="location-location">
+                    <h3>Country</h3>
+                </div>
+                <div class="date-location">
+                    <h3>Date</h3>
+                </div>
+            </div>
+            
+            <div class="event-information">
+                <!-- JavaScript -->
+                
+            </div>
+                    
+        
+    
+    <script src="./js/test.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/hamburgerMenu.js"></script>
+
+</body>
+</html>
